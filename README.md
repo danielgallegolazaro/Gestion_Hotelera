@@ -8,7 +8,7 @@ class DatabaseManager:
     def _init_(self, db_name="hotel.db"):
         self.db_name = db_name
         self.create_table()
-
+#sdfsdf
     def create_table(self):
         conn = sqlite3.connect(self.db_name)
         cursor = conn.cursor()
